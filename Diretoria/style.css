@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:#f2f2f2;
+}
+
+header{
+   
+    width: 100%;
+    height: 180px;
+    display: flex;
+    background-color: #0d0c0c;
+    align-items: center;
+    background-image: url('../img/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.menuRamal{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+ul,li,a{
+    display: flex;
+    gap: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a{
+    padding: 5px;
+    
+}
+
+a:hover{
+    background-color: aliceblue;
+    color: #30261c;
+    transition: .3s
+}
+
+.Slogan{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    flex-direction: column;
+    
+}
+
+.main-content{
+    width: 100%;
+    height: 100%;
+    padding: 5em;
+    margin-bottom: 7em;
+    
+
+}
+
+.container-cards{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 7rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.sectorLeaderCard{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 19rem;
+    height: 19rem;
+    border: 1px solid #63e4f2;
+    box-shadow: 0 0 10px black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+
+    
+}
+
+
+
+  .title-card{
+    font-size: 1.4em;
+    height: 80px;
+    color:#0d0c0c; 
+    margin-bottom: 1.3em;
+  }
+
+  .img-card{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 20px;
+    
+    
+    
+  }
+
+  .info-text{
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    background-color: 
+    #e4262d;
+    box-shadow: 0 0 10px black;
+    padding: 15px;
+    border: 1px solid black;
+    color:white;
+    font-weight:300;
+    transition: .4s;
+    width: 20rem;
+    background-color: #e4262d
+    
+    
+  }
+
+  .info-text:hover{
+    transform: scale(1.1);
+  }
+
+.spaceDiv{
+  width: 100%;
+  height: 150px;
+  background-color: #0d0c0c;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+}
+  
+
+ 
+  
